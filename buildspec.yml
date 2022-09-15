@@ -5,7 +5,7 @@ phases:
   install: 
     commands:
       - export GOPRIVATE=*
-      - go get -u github.com/golang/lint/golint
+      - go install -u github.com/golang/lint/golint
 
   pre_build: 
     commands:
